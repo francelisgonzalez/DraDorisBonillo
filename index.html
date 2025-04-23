@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+     <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css"> 
+</head>
+
+<body>
+
+<header>
+  
+  <div class="row">
+  
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./medios/logo/logo-doris-sinfondo.png" width="200" alt="logo de la página web">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <ul class="navbar-nav  d-flex justify-content-center align-items-center" >
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Inicio</a>        
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages.html/sobremi.html">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages.html/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages.html/testimonios.html">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages.html/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+</header>
+</body>
+<!-- menu de navegacion con bootstrap-->
+
+
+<body>
+
+
+
+
+</body>
+    
+
+    
+
+<!-- eslogan -->
+<section class="eslogan">
+    <h1>Recupera tu sonrisa, recupera tu confianza.</h1>
+</section>
+
+ <!-- carrusel con bootstrap -->
+<div class="container">
+ <div id="carouselhome" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./medios/fotos/imagenesgenerales/revision-dental.jpg" class="d-block w-100" alt="consulta dental">
+      </div>
+      <div class="carousel-item">
+        <img src="./medios/fotos/imagenesgenerales/tratamiento-dental.jpg" class="d-block w-100" alt="tratamiento dental">
+      </div>
+      <div class="carousel-item">
+        <img src="./medios/fotos/imagenesgenerales/implante-color.jpg" class="d-block w-100" alt="implantes">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselhome" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselhome" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!-- Servicios -->
+<section class="servicios">
+    <h1>Servicios</h1>
+    <h2>Transforma tu sonrisa, mejora tu vida. ¡Te ayudamos a sonreír con confianza!</h2>
+    <!-- Contenedor para las imágenes y títulos -->
+    <div class="servicios-container">
+        <!-- Odontología General -->
+        <div class="servicio">
+            <img src="./medios/iconos/icono-servicios/icono-odon-general.png" alt="Odontología General">
+            <h3>Odontología General</h3>
+        </div>
+        <!-- Implantes y Rehabilitación Oral -->
+        <div class="servicio">
+            <img src="./medios/iconos/icono-servicios/icono-implante.png" alt="Implantes y Rehabilitación Oral">
+            <h3>Implantes y Rehabilitación Oral</h3>
+    </div>
+</section>
+
+ <!-- Testimonios -->
+
+    <h1>Historias de sonrisas transformadas</h1>
+    <h2>Las mejores recomendaciones vienen de quienes han vivido la experiencia. Conoce lo que nuestros pacientes tienen para decir.</h2>
+    <div class="testimonios-container">
+    <blockquote class="testimonio">
+        <p>“Gracias a los implantes dentales, mi vida ha cambiado por completo.” Ana L.</p>
+    </blockquote>
+    <blockquote class="testimonio">
+        <p>“El trato es profesional, amable y siempre me explican cada paso del tratamiento.” Juan M.</p>
+    </blockquote>
+    </div>
+
+ <!-- Formulario de contacto -->
+ <section class="contacto">
+    <div class="texto-contacto">
+        <h1>Contacto</h1>
+        <h2>¡Es momento de recuperar tu sonrisa!</h2>
+    </div>
+    <form class="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        <br><br>
+
+        <label for="motivo">Motivo de consulta:</label>
+        <textarea id="motivo" name="motivo" rows="4" cols="50" required></textarea>
+        <br><br>
+    </form>
+</section>
+</main>
+ <!-- Footer -->
+    <footer>
+    
+        <img src="./medios/logo/logo-doris-sinfondo.png" alt="logo dra doris bonillo">
+    
+
+        <div class="contact-links">
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/odbonillo/" target="_blank" class="contact-item">
+                <img src="./medios/iconos/instagram-logo.png" alt="Instagram" class="icon"> @dradorisbonillo
+            </a>
+            <!-- WhatsApp -->
+            <a href="https://api.whatsapp.com/send?phone=59897029193&text=Hola%20Dra%20Doris%2C%20quiero%20hacerle%20una%20consulta..." target="_blank" class="contact-item">
+                <img src="./medios/iconos/whatsapp-logo.png" alt="WhatsApp" class="icon"> +598 96 233 567
+            </a>
+            <!-- Google Maps -->
+            <a href="https://g.co/kgs/4A1E89N" target="_blank" class="contact-item">
+                <img src="./medios/iconos/google-maps-logo.png" alt="Google Maps" class="icon"> Av. Dr. Alfredo Navarro 3123 - Montevideo
+            </a>
+        </div>
+</footer>
+
+</head>
+</body>
+</html>
