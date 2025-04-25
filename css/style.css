@@ -11,18 +11,16 @@
 */
 
 
-/* Contenedor del logo + menú */
-.navbar {
-        padding: 2rem;
-        background-color: ;
+/* Header */
+header {
+    background-color: #c3d1da; 
+
 }
 
-.navbar collapse
 
-
-.logo img{
+/*.logo img{
     height: 50%
-}
+}*/
 
 /* Menú */
 nav ul {
@@ -40,11 +38,6 @@ nav ul li a {
     font-size: 16px;
 }
 
-.carousel-inner{
-    max-height: 500px;
-
-}
-
 
 /* General */
 body {
@@ -54,31 +47,19 @@ body {
 }
 
 
-/* Header */
-header {
-    background-color: #c3d1da; 
-    padding: 10px;
-    
-    
-}
-
-header img{
-    margin: 0px;
-    padding: 0px;
-}
-
 
 /*Fuentes*/
 h1{
     color: #F2A92C;
     text-align: center;
     font-size: 30px;
+    margin: 20px;
 }
 
 h2 {
     color: #1C4D63;
     text-align: center;
-    font-size: 40px
+    font-size: 20px
 }
 
 
@@ -90,7 +71,7 @@ h3 {
 
 p {
     font-size: 15px;
-    padding: 30px;
+    padding: auto;
 }
 
 label{
@@ -102,6 +83,13 @@ ul{
     list-style-type: none; 
 }
 
+li{
+    text-align: left;
+    padding: auto;
+}
+
+
+
 /* Sección Eslogan */
 .eslogan {
     padding: 20px;
@@ -110,39 +98,64 @@ ul{
     
 }
 
-/* Menú de navegación */
-nav {
-    background-color: #c3d1da;
-    padding: 10px;
-    
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #1C4D63;
-    text-decoration: none;
-    font-size: 16px;
-}
 
 
-
-
-/*Imagen perfil*/
+/*Imagen perfil
 .imagen-perfil {
-    display: block;
+   
     margin: 20px auto;
     max-width: 100%;
     height: auto;
+    padding: auto;
+}*/
+
+
+.sobre-mi {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* dos columnas de igual tamaño */
+    gap: 2rem; /* espacio entre columnas */
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .columna-imagen img {
+  max-width: 100%;
+  margin-left: auto ;
+
+  border-radius: 10px;
+  max-height: 100px
+  object-fit: cover;
 }
+
+.columna-texto {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.columna-texto {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
+.grid-logros {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .columna-texto ul li {
+    margin-bottom: 1rem;
+    list-style-type: disc;
+    padding-left: 1rem;
+  }
+  
+  .columna-texto h2 {
+    margin-bottom: 1rem;
+  }
 
 /* Servicios */
 
@@ -254,3 +267,34 @@ footer .contact-item img.icon {
     height: 30px;
     margin-right: 10px; 
 }
+
+@media (max-width: 768px) {
+    .sobre-mi {
+      grid-template-columns: 1fr; 
+      text-align: center; 
+    }
+    .columna-imagen img {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+    
+      .columna-texto h1 {
+        font-size: 2rem;
+      }
+    
+      .columna-texto p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+        .grid-logros {
+          grid-template-columns: 1fr;
+          text-align: center;
+        }
+      
+        .columna-imagen img {
+          max-width: 80%;
+          margin: 0 auto;
+        }
+    }
