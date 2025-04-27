@@ -109,29 +109,35 @@
     </blockquote>
     </div>
 
- <!-- Formulario de contacto -->
- <section class="contacto">
-    <div class="texto-contacto">
-        <h1>Contacto</h1>
-        <h2>¡Es momento de recuperar tu sonrisa!</h2>
+ <!-- nuevo formulario de contacto -->
+<section class="contacto-formulario">
+  <div class="texto-contacto">
+    <h1>Contacto</h1>
+    <h2>¡Es momento de recuperar tu sonrisa!</h2>
+  </div>
+
+  <form class="formulario">
+    <div class="formulario-grupo">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
     </div>
-    <form class="formulario">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        <br><br>
 
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required>
-        <br><br>
+    <div class="formulario-grupo">
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
 
-        <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono" required>
-        <br><br>
+    <div class="formulario-grupo">
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono" required>
+    </div>
 
-        <label for="motivo">Motivo de consulta:</label>
-        <textarea id="motivo" name="motivo" rows="4" cols="50" required></textarea>
-        <br><br>
-    </form>
+    <div class="formulario-grupo">
+      <label for="motivo">Motivo de consulta:</label>
+      <textarea id="motivo" name="motivo" rows="4" required></textarea>
+    </div>
+
+  </form>
 </section>
 </main>
 
