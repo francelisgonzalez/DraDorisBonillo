@@ -15,20 +15,20 @@
 h1{
     color: #F2A92C;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 20px;
 }
 
 h2 {
     color: #1C4D63;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 h3 {
     color: #1C4D63;
     text-align: center;
-    font-size: 2.5rem; 
+    font-size: 20px; 
 }
 
 p {
@@ -63,7 +63,7 @@ header {
     height: 50%
 }*/
 
-/* Menú */
+/* MENU NAVEGACION */
 nav ul {
     list-style: none;
     display: flex;
@@ -72,7 +72,7 @@ nav ul {
     padding: 0;
 }
 
-nav ul li a {+
+nav ul li a {
     text-decoration: none;
     color: #333;
     font-weight: 500;
@@ -88,7 +88,7 @@ body {
 }
 
 
-/* Sección Eslogan */
+/* ESLOGAN HOME */
 .eslogan {
     padding: 20px;
     text-align: center;
@@ -96,6 +96,20 @@ body {
     
 }
 
+/*CARRUSEL*/  
+
+.container-carrusel {
+    padding: 0; /* Eliminar el padding por defecto */
+    margin: 0; /* Eliminar el margen por defecto */
+    height: 55%; /* Alto de la pantalla completa */
+  }
+
+#carouselhome {
+    max-width: 55%; /* Ajusta el porcentaje a tu necesidad */
+    margin: 0 auto; /* Centra el carrusel */
+  }
+
+ 
 
 /*SOBRE MI*/
 
@@ -141,34 +155,41 @@ body {
   }
 
 
-/* Servicios */
+/* SERVICIOS */
 
 .servicios-container {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: center; 
     margin-top: 50px;
 }
 
-/* Estilo para cada servicio */
+.btn-mimarca {
+    background-color: #5B869F; 
+    border-color: #5B869F; 
+    color: #fff; 
+  }
+
+/* Estilo para cada servicio en index -que quiero cambiar mas adelante para otra entrega*/
 .servicio {
     text-align: center;
     width: 160px; 
 }
 
 .servicio img {
-    width: 100%; 
+    width: 70%; 
     height: auto; 
     border-radius: 10px; 
+    
 }
 
 .servicio h3 {
     margin-top: 15px;
     color: #1C4D63; 
-    font-size: 25px;
+    font-size: 15px;
 }
 
 
-/* Contenedor de los testimonios */
+/* TESTIMONIOS */
 .testimonios-container {
     justify-content: center;
     align-items: center;
@@ -191,7 +212,6 @@ body {
 /*PAGINA DE CONTACTO*/
 
 /* ICONOS */
-
   .contacto-item {
     display: flex;
     flex-direction: column;
@@ -273,7 +293,7 @@ body {
   
 
 
-/* footer */
+/* FOOTER */
 
 footer {
     background-color: #f8f8f8; 
