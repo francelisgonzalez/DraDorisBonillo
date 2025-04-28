@@ -17,12 +17,18 @@ h1{
     text-align: center;
     font-size: 2rem;
     margin: 20px;
+    font-weight: bold;
+    
 }
+
 
 h2 {
     color: #1C4D63;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    color: #6c757d;
+    
 }
 
 h3 {
@@ -110,7 +116,6 @@ body {
   }
 
  
-
 /*SOBRE MI*/
 
 .grid-sobre-mi {
@@ -189,25 +194,37 @@ body {
 }
 
 
-/* TESTIMONIOS */
-.testimonios-container {
-    justify-content: center;
-    align-items: center;
-    display: flex; 
-    gap: 20px; 
-    margin: 20px; 
-    
-}
+/*Testimonios*/
 
-/* Estilo de cada testimonio */
-.testimonio {
-    background-color: #5B869F; 
-    padding: 20px; 
-    color: white; 
-    border-radius: 10px; 
-    max-width: 45%; 
-    font-style: italic; 
-}
+
+.testimonios-container {
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .testimonio {
+    background-color: #f8f9fa; 
+    border-left: 5px solid #F2A92C; 
+    padding: 20px;
+    margin: 15px;
+    max-width: 600px; 
+    font-style: italic;
+    font-size: 1.125rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para mayor énfasis */
+    border-radius: 8px; 
+  }
+  
+  .testimonio p {
+    margin: 0;
+    color: #333; 
+  }
+  
+
+  
+
 
 /*PAGINA DE CONTACTO*/
 
@@ -253,6 +270,8 @@ body {
   
   .texto-contacto {
     text-align: center;
+    color: #666;
+    font-size: 1rem;
   }
   
   .texto-contacto h1 {
@@ -261,7 +280,7 @@ body {
   }
   
   .texto-contacto h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #666;
   }
   
@@ -280,7 +299,7 @@ body {
   
   .formulario-grupo label {
     margin-bottom: 0.5rem;
-    font-weight: bold;
+   font-size: 1.5rem;
   }
   
   .formulario-grupo input,
