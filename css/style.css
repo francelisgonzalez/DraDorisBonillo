@@ -90,6 +90,7 @@ body {
     background-color: white;
     color: #1C4D63;
     font-family: Noto Sans, sans-serif;
+    max-width: 100%;
    
 }
 
@@ -105,14 +106,15 @@ body {
 /*CARRUSEL*/  
 
 .container-carrusel {
-    padding: 0; /* Eliminar el padding por defecto */
-    margin: 0; /* Eliminar el margen por defecto */
-    height: 55%; /* Alto de la pantalla completa */
+    padding: 0; 
+    margin: 0; 
+    
+    
   }
 
 #carouselhome {
-    max-width: 55%; /* Ajusta el porcentaje a tu necesidad */
-    margin: 0 auto; /* Centra el carrusel */
+    margin: 0 auto; 
+    
   }
 
  
@@ -213,7 +215,7 @@ body {
     max-width: 600px; 
     font-style: italic;
     font-size: 1.125rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para mayor énfasis */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 8px; 
   }
   
