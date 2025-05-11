@@ -1,0 +1,332 @@
+/*Colores de marca
+#c3d1da gris
+#1C4D63 azul osculo
+#5B869F azul grisaceo
+#F2A92C amarillo
+#DB5E1F naranja
+*/
+h1 {
+  color: #F2A92C;
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #1C4D63;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #6c757d;
+}
+
+/* ESLOGAN HOME */
+eslogan {
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+}
+eslogan h1 {
+  color: #F2A92C;
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px;
+  font-weight: bold;
+}
+
+/* SERVICIOS */
+.servicios-home h1 {
+  color: #F2A92C;
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px;
+  font-weight: bold;
+}
+.servicios-home h2 {
+  color: #5B869F;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #6c757d;
+}
+
+.servicios-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.servicios-container .servicio {
+  text-align: center;
+  width: 160px;
+}
+.servicios-container .servicio img {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+}
+.servicios-container h3 {
+  color: #1C4D63;
+  text-align: center;
+  font-size: 20px;
+}
+
+/*TESTIMONIOS*/
+.testimonios-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.testimonios-container .testimonio {
+  background-color: #c3d1da;
+  border-left: 5px solid #F2A92C;
+  padding: 20px;
+  margin: 15px;
+  max-width: 600px;
+  font-style: italic;
+  font-size: 1.125rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.testimonios-container .testimonio p {
+  margin: 0;
+  color: #333;
+}
+
+/*FORMULARIO DE CONTACTO*/
+.contacto-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+.contacto-formulario .texto-contacto {
+  text-align: center;
+  color: #666;
+  font-size: 1rem;
+}
+.contacto-formulario .texto-contacto h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.contacto-formulario .texto-contacto h2 {
+  font-size: 1rem;
+  color: #666;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  gap: 1.5rem;
+}
+.formulario .formulario-grupo {
+  display: flex;
+  flex-direction: column;
+}
+.formulario .formulario-grupo label {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.formulario .formulario-grupo input,
+.formulario .formulario-grupo textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.sobre-mi .grid-sobre-mi {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  align-items: center;
+  padding: 40px 20px;
+}
+.sobre-mi .grid-sobre-mi .columna-imagen,
+.sobre-mi .grid-sobre-mi .columna-texto {
+  width: 100%;
+  align-items: center;
+}
+.sobre-mi .grid-sobre-mi .columna-imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sobre-mi .grid-sobre-mi .columna-imagen .img-fluid {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+.sobre-mi .grid-sobre-mi .columna-imagen .imagen-circular {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/*HEADER*/
+header {
+  background-color: #c3d1da;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #f8f8f8;
+  padding: 30px;
+  text-align: center;
+}
+footer img {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 4px;
+}
+footer .contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+footer .contact-links .contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+footer .contact-links img.icon {
+  width: 20px;
+  height: 20px;
+}
+
+h1 {
+  color: #F2A92C;
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #F2A92C;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  color: #6c757d;
+}
+
+.testimonios-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.testimonios-container .testimonio {
+  background-color: #f8f9fa;
+  border-left: 5px solid #F2A92C;
+  padding: 20px;
+  margin: 15px;
+  max-width: 600px;
+  font-style: italic;
+  font-size: 1.125rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.testimonios-container .testimonio .testimonio p {
+  margin: 0;
+  color: #333;
+}
+
+.contacto-info {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+.contacto-info .contacto-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.contacto-info .contacto-item .icono-contacto {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+.contacto-info .contacto-item .icono-contacto .texto-contacto {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .grid-sobre-mi {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .grid-sobre-mi {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .contact-links {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .sobre-mi {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .columna-imagen img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .columna-texto h1 {
+    font-size: 2rem;
+  }
+  .columna-texto p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .grid-logros {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .columna-imagen img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .contacto-info {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

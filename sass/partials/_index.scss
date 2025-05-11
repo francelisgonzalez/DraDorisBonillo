@@ -1,0 +1,167 @@
+h1{
+    color: #F2A92C;
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+    font-weight: bold;
+    
+}
+
+h2 {
+    color: #1C4D63;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    color: #6c757d;
+    
+}
+
+
+
+/* ESLOGAN HOME */
+
+    eslogan {
+        padding: 20px;
+        text-align: center;
+        font-style: italic;
+        h1{
+            color:#F2A92C ;
+            text-align: center;
+            font-size: 2rem;
+            margin: 20px;
+            font-weight: bold;
+        }
+    }
+
+
+
+/* SERVICIOS */
+
+.servicios-home{
+    h1{
+        color:#F2A92C;
+        text-align: center;
+        font-size: 2rem;
+        margin: 20px;
+        font-weight: bold;
+    }
+    h2 {
+        color: #5B869F;
+        text-align: center;
+        font-size: 1.25rem;
+        margin-bottom: 30px;
+        color: #6c757d;
+    }
+}
+
+.servicios-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;
+    .servicio {
+        text-align: center;
+        width: 160px; 
+    }
+    .servicio img {
+        width: 70%; 
+        height: auto; 
+        border-radius: 10px; 
+    }
+    h3 {
+        color: #1C4D63;
+        text-align: center;
+        font-size: 20px; 
+    }
+
+}
+
+/*TESTIMONIOS*/
+
+.testimonios-container {
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    justify-content: center;
+    margin-top: 40px;
+    .testimonio {
+        background-color: #c3d1da; 
+        border-left: 5px solid #F2A92C; 
+        padding: 20px;
+        margin: 15px;
+        max-width: 600px; 
+        font-style: italic;
+        font-size: 1.125rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+        border-radius: 8px; 
+      }
+      
+      .testimonio p {
+        margin: 0;
+        color: #333; 
+      }
+  }
+
+/*FORMULARIO DE CONTACTO*/
+
+.contacto-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+
+    .texto-contacto {
+        text-align: center;
+        color: #666;
+        font-size: 1rem;
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+          }
+
+          h2 {
+            font-size: 1rem;
+            color: #666;
+          }  
+      }
+
+      
+  }
+
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    gap: 1.5rem;
+
+    .formulario-grupo {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+          }
+    
+          input,
+          textarea {
+            padding: 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1rem;
+          }
+      }
+  }
+
+
+
+
+
+
+
+  
+    
+  
+  
