@@ -1,5 +1,6 @@
+@use "./variables" as*;
 h1{
-    color: #F2A92C;
+    color: $amarillo;
     text-align: center;
     font-size: 2rem;
     margin: 20px;
@@ -8,7 +9,7 @@ h1{
 }
 
 h2 {
-    color:#F2A92C ;
+    color:$azuloscuro;
     text-align: center;
     font-size: 1.25rem;
     margin-bottom: 30px;
@@ -25,7 +26,7 @@ h2 {
 
     .testimonio {
         background-color: #f8f9fa; 
-        border-left: 5px solid #F2A92C; 
+        border-left: 5px solid $amarillo; 
         padding: 20px;
         margin: 15px;
         max-width: 600px; 

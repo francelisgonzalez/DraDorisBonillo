@@ -11,6 +11,16 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <!-- CSS VIEJO 
     <link rel="stylesheet" href="../css/style.css"> -->
+
+    <!-- ANIMATE-->
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
     <!-- menu de navegacion -->
@@ -50,18 +60,18 @@
 <!--Testimonios NUevos-->
 
 
-<h1>Historias de sonrisas transformadas</h1>
+<h1 class="animate__animated animate__bounceInLeft">Historias de sonrisas transformadas</h1>
 
-<h2>Las mejores recomendaciones vienen de quienes han vivido la experiencia.</h2>
-<h2>Conoce lo que nuestros pacientes tienen para decir.</h2>
+<h2 class="animate__animated animate__bounceInLeft">Las mejores recomendaciones vienen de quienes han vivido la experiencia.</h2>
+<h2 class="animate__animated animate__bounceInLeft">Conoce lo que nuestros pacientes tienen para decir.</h2>
 
 <div class="testimonios-container">
     <blockquote class="testimonio">
-        <p>“Gracias a los implantes dentales, mi vida ha cambiado por completo.” Ana L.</p>
+        <p data-aos="zoom-out-up">“Gracias a los implantes dentales, mi vida ha cambiado por completo.” Ana L.</p>
     </blockquote>
 
     <blockquote class="testimonio">
-        <p>“El trato es profesional, amable y siempre me explican cada paso del tratamiento.” Juan M.</p>
+        <p data-aos="zoom-out-up">“El trato es profesional, amable y siempre me explican cada paso del tratamiento.” Juan M.</p>
     </blockquote>
 </div>
 
@@ -105,6 +115,10 @@
         </div>
     </footer>
 
+<!-- AOS-->
+<script>
+  AOS.init();
+</script>
 
 </body>
 

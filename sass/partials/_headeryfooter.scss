@@ -1,3 +1,6 @@
+@use "./variables" as*;
+@use "./mixin" as *;
+
 
 
 /*HEADER*/
@@ -11,10 +14,9 @@ header {
         margin: 0;
         padding: 0;
         li a {
-            text-decoration: none;
-            color: #333;
+            @include link-estilo;
             font-weight: 500;
-            font-size: 16px;
+            
         }
     }
 }
@@ -41,9 +43,7 @@ footer {
             display: flex;
             align-items: center;
             gap: 10px;
-            text-decoration: none;
-            color: #333; 
-            font-size: 16px;
+            @include link-estilo;
           }
           img.icon {
             width: 20px;
@@ -53,3 +53,4 @@ footer {
       }
   }
 
+ 

@@ -1,11 +1,4 @@
-/*Colores de marca
-#c3d1da gris
-#1C4D63 azul osculo
-#5B869F azul grisaceo
-#F2A92C amarillo
-#DB5E1F naranja
-*/
-h1 {
+h1, .servicios-home h1, eslogan h1 {
   color: #F2A92C;
   text-align: center;
   font-size: 2rem;
@@ -13,7 +6,7 @@ h1 {
   font-weight: bold;
 }
 
-h2 {
+h2, .servicios-home h2 {
   color: #1C4D63;
   text-align: center;
   font-size: 1.25rem;
@@ -27,30 +20,7 @@ eslogan {
   text-align: center;
   font-style: italic;
 }
-eslogan h1 {
-  color: #F2A92C;
-  text-align: center;
-  font-size: 2rem;
-  margin: 20px;
-  font-weight: bold;
-}
-
 /* SERVICIOS */
-.servicios-home h1 {
-  color: #F2A92C;
-  text-align: center;
-  font-size: 2rem;
-  margin: 20px;
-  font-weight: bold;
-}
-.servicios-home h2 {
-  color: #5B869F;
-  text-align: center;
-  font-size: 1.25rem;
-  margin-bottom: 30px;
-  color: #6c757d;
-}
-
 .servicios-container {
   display: flex;
   justify-content: center;
@@ -183,8 +153,8 @@ header nav ul {
 header nav ul li a {
   text-decoration: none;
   color: #333;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
 }
 
 /*FOOTER*/
@@ -226,7 +196,7 @@ h1 {
 }
 
 h2 {
-  color: #F2A92C;
+  color: #1C4D63;
   text-align: center;
   font-size: 1.25rem;
   margin-bottom: 30px;
