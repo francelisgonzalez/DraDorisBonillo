@@ -1,0 +1,36 @@
+@use "./variables" as*;
+
+.servicios {
+
+  h3 {
+    color: $amarillo;
+    font-size: 1.25rem;
+  }
+
+  .card {
+    height: 100%;
+
+    &-body {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      .card-title {
+        color: $amarillo ;
+      }
+
+      .card-text {
+        text-align: center;
+      }
+    }
+  }
+
+  .btn-mimarca {
+    background-color: $azulgrisaseo;
+    color: $azuloscuro;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top: auto;
+  }
+}
