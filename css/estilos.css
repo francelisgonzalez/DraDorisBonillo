@@ -294,6 +294,12 @@ h2 {
   }
 }
 @media (max-width: 768px) {
+  .grid-sobre-mi {
+    grid-template-columns: 1fr;
+    grid-template-areas: "foto-perfil" "texto-sobre-mi" "texto-logros" "foto-trabajando";
+  }
+}
+@media (max-width: 768px) {
   .sobre-mi {
     grid-template-columns: 1fr;
     text-align: center;
