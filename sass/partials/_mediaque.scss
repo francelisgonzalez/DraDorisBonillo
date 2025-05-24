@@ -1,5 +1,6 @@
 @use "./variables" as*;
 
+//SOBRE MI
 
 @media (max-width: 768px) {
   .grid-sobre-mi {
@@ -32,11 +33,11 @@
 }
 
 
-
+//CONTACTO
 
 .contacto-info {
   display: flex;
-  flex-direction: column; /* por defecto en móvil, icono arriba texto abajo */
+  flex-direction: column; 
   align-items: center;
   gap: 1rem;
   padding: 1.2rem;
@@ -63,16 +64,18 @@
   }
 }
 
+
 @media (min-width: 481px) and (max-width: 767px) {
-  /* Aquí podés agregar estilos para tablets si querés */
+  
   .contacto-info {
     max-width: 600px;
   }
 }
 
+
 @media (min-width: 768px) {
   .contacto-info {
-    flex-direction: row; /* ícono y texto en fila en pantallas grandes */
+    flex-direction: row; 
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -108,3 +111,5 @@
     }
   }
 }
+
+
