@@ -1,11 +1,5 @@
 @use "./variables" as*;
 
-    @media (min-width: 768px) {
-        .contact-links {
-          flex-direction: row;
-          justify-content: center;
-        }
-      }
 
 @media (max-width: 768px) {
   .grid-sobre-mi {
@@ -15,45 +9,102 @@
       "texto-sobre-mi"
       "texto-logros"
       "foto-trabajando";
+      place-items: center;
+      text-align: center;
+  }
+
+  .sobre-mi {
+    text-align: center;
+  }
+
+  .sobre-mi img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .texto-sobre-mi h1 {
+    font-size: 2rem;
+  }
+
+  .texto-sobre-mi p {
+    font-size: 1rem;
   }
 }
 
 
-    @media (max-width: 768px) {
-        .sobre-mi {
-        grid-template-columns: 1fr; 
-        text-align: center; 
-        }
-        .columna-imagen img {
-            max-width: 80%;
-            margin: 0 auto;
-        }
-        
-        .columna-texto h1 {
-            font-size: 2rem;
-        }
-        
-        .columna-texto p {
-            font-size: 1rem;
-        }
-        }
 
-    @media (max-width: 768px) {
-        .grid-logros {
-          grid-template-columns: 1fr;
-          text-align: center;
-        }
-      
-        .columna-imagen img {
-          max-width: 80%;
-          margin: 0 auto;
-        }
+
+.contacto-info {
+  display: flex;
+  flex-direction: column; /* por defecto en móvil, icono arriba texto abajo */
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem;
+
+  .contacto-item {
+    padding: 0.8rem 1rem;
+    max-width: 280px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .icono-contacto {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 0.6rem;
     }
 
-    @media (min-width: 768px) {
-        .contacto-info {
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-        }
+    p, .texto-contacto {
+      font-size: 12px;
+      line-height: 1.4;
+      margin: 0;
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Aquí podés agregar estilos para tablets si querés */
+  .contacto-info {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contacto-info {
+    flex-direction: row; /* ícono y texto en fila en pantallas grandes */
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .contacto-item {
+      max-width: 320px;
+      padding: 1.5rem;
+      text-align: center;
+
+      .icono-contacto {
+        width: 55px;
+        height: 55px;
+        margin-bottom: 1rem;
       }
+
+      p, .texto-contacto {
+        font-size: 13px;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+//FOOTER 
+@media (max-width: 768px) {
+  footer .contact-links {
+    flex-direction: column;  
+    gap: 1rem;
+
+    .contact-item {
+      justify-content: center; 
+      font-size: 0.9rem;
+    }
+  }
+}

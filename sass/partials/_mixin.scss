@@ -1,4 +1,6 @@
- @mixin link-estilo {
+@use "./variables" as*;
+
+@mixin link-estilo {
     text-decoration: none;
-    color: #333;
+    color: $azuloscuro;
     font-size: 16px;}

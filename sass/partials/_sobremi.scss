@@ -4,12 +4,15 @@
 .sobre-mi {
   padding: 2rem;
   background-color: white;
-
+  
+}
   .grid-sobre-mi {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
-    align-items: start;
+    place-items: center;
+    text-align: center;
+    
 
     grid-template-areas:
       "foto-perfil texto-sobre-mi"
@@ -21,10 +24,18 @@
 
     .texto-sobre-mi {
       grid-area: texto-sobre-mi;
+      text-align: justify;
     }
 
     .texto-logros {
+      h2{
+        font-size: 2rem;
+        color:$azuloscuro;
+        font-weight: bold;
+      }
       grid-area: texto-logros;
+      text-align: justify;
+      
     }
 
     .foto-trabajando {
@@ -33,7 +44,10 @@
   }
 
   .imagen-circular {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
   }
-}
+
+
+
+
