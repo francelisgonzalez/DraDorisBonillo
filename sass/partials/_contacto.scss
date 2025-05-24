@@ -30,10 +30,12 @@
       margin-bottom: 1rem;
     }
 
-    p, .texto-contacto{
-    
+    p, .texto-contacto
+    .contacto-item a[href^="tel"],{
+    text-decoration: none !important;
+ 
       font-size:13px;
-      color: $azuloscuro;
+      color: $azuloscuro !important;
       font-weight: 500;
       line-height: 1.5;
       margin: 0;

@@ -276,9 +276,10 @@ h2 {
   height: 55px;
   margin-bottom: 1rem;
 }
-.contacto-info .contacto-item p, .contacto-info .contacto-item .texto-contacto {
+.contacto-info .contacto-item p, .contacto-info .contacto-item .texto-contacto .contacto-item a[href^=tel] {
+  text-decoration: none !important;
   font-size: 13px;
-  color: #1C4D63;
+  color: #1C4D63 !important;
   font-weight: 500;
   line-height: 1.5;
   margin: 0;
